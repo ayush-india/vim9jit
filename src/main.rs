@@ -82,6 +82,7 @@ fn gen_directory(src: &Path, gen: &Path, subdir: &OsStr) -> Result<()> {
 fn main() -> Result<()> {
     parser::setup_trace();
     let args = Args::parse();
+    println!("Please work");
 
     if let Some(dir) = args.dir {
         println!("dir: {dir}");
