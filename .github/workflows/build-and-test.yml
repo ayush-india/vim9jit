@@ -1,4 +1,4 @@
-on: [fork]
+on: [push]
 
 name: build-and-test
 
