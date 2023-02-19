@@ -24,6 +24,7 @@ jobs:
         with:
             toolchain: nightly
             override: true
+            target: x86_64-unknown-linux-gnu
             components: rustfmt, clippy
 
       - name: Run cargo build --release (workspace)
